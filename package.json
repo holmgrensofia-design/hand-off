@@ -1,0 +1,10 @@
+{
+  "name": "walking-reset-handoff",
+  "private": true,
+  "scripts": {
+    "test": "node --test app/tests/progress.test.mjs",
+    "start": "python3 -m http.server 8000 --directory app/dist",
+    "preview:experiment": "python3 -m http.server 8001 --directory experiments/october30/dist",
+    "export": "python3 app/scripts/standalone.py"
+  }
+}
